@@ -1,10 +1,10 @@
 let num =  Math.floor(Math.random()*15)+ 1;
 
-else if (num%3===0 && num%5===0){
+if (num%3===0 && num%5===0){
   console.log ('３と５の倍数です');
 }
 
-if (num%3===0){
+else if (num%3===0){
   console.log ('３の倍数です');
 }
 
